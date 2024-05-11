@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ankro",
+            "request": "launch",
+            "mainClass": "Ankro",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Button",
+            "request": "launch",
+            "mainClass": "Button",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Menu",
+            "request": "launch",
+            "mainClass": "Menu",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Something",
+            "request": "launch",
+            "mainClass": "Something",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "fghdsf",
+            "request": "launch",
+            "mainClass": "fghdsf",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "fileOpen",
+            "request": "launch",
+            "mainClass": "fileOpen",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "fileSave",
+            "request": "launch",
+            "mainClass": "fileSave",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "marwah",
+            "request": "launch",
+            "mainClass": "marwah",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "userpass",
+            "request": "launch",
+            "mainClass": "userpass",
+            "projectName": "Java_90dc9b9"
+        }
+    ]
+}
