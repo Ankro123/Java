@@ -12,6 +12,7 @@ public class Menu {
         JButton calculator = new JButton("CALCULATOR");
         JButton toDoList = new JButton("To Do List");
         JButton textEditor = new JButton("Text Editor");
+        JButton game = new JButton("Game");
 
         JPanel button = new JPanel();
         button.setLayout(new GridLayout(3, 1,0, 30));
@@ -36,11 +37,19 @@ public class Menu {
                 Menu.dispose();
             }
         });
+        game.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e){
+                
+                Game playGame  = new Game();
+                Menu.dispose();
+            }
+        });
 
        
         button.add(calculator);
         button.add(toDoList);
         button.add(textEditor);
+        button.add(game);
         Menu.add(button);
         Menu.setLayout(null);
         Menu.setVisible(true);
